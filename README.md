@@ -15,5 +15,3 @@ Sou estudante do **3º semestre de Ciência da Computação no IFCE - Campus Tia
 * **Email:** davidlucswtx@gmail.com
 
 ### Estatísticas do GitHub
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-Lcswtx&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
