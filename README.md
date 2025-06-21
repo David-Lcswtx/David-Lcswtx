@@ -16,4 +16,4 @@ Sou estudante do **3º semestre de Ciência da Computação no IFCE - Campus Tia
 
 ### Estatísticas do GitHub
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-Lcswtx&layout=donut-vertical&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-Lcswtx&layout=donut-vertical&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
