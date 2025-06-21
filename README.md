@@ -19,5 +19,5 @@ Sou estudante do **3º semestre de Ciência da Computação no IFCE - Campus Tia
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-Lcswtx&layout=donut-vertical&theme=github_dark)
 
 <p align="center">
-  <img src="https://github.com/David-Lcswtx/David-Lcswtx/blob/output/github-snake.svg" alt="Animação da cobra no GitHub"/>
+  <img src="https://raw.githubusercontent.com/David-Lcswtx/output/dist/github-snake.svg" alt="Animação da cobra no GitHub"/>
 </p>
