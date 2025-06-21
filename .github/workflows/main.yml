@@ -2,36 +2,27 @@ name: Generate Snake animation
 
 on:
   schedule:
-    # Executa a cada 12 horas
-    - cron: "*/12 * * * *"
+    # Runs at 00:00 every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Usa a ação da cobra
+      # Checkout your repository
+      - uses: actions/checkout@v4 # Usar v4 para esta ação também
+
+      # Gerar a animação da cobra
       - uses: Platane/snk@v3
         with:
-          github_user_name: David-Lcswtx # Verifique se o seu usuário está correto aqui
-          svg_out_path: dist/github-snake.svg
-          # Opcional: Define o tema da cobra (veja a lista abaixo)
-          # palette: github-dark # Remova o '#' para ativar
-          # Opcional: Define as cores da cobra e dos pontos
-          # color_snake: '#718096' # Remova o '#' para ativar
-          # color_dots: '#4c566a, #abb2bf, #81a1c1, #56b6c2, #98c379' # Remova o '#' para ativar
+          github_user_name: David-Lcswtx # SEU USERNAME AQUI!
+          svg_out_path: dist/github-snake.svg # Onde o SVG será gerado localmente antes do push
+          output_branch: output # O branch para onde o SVG será "pushed"
+          git_push: true # Habilita o push para o branch
+          token: ${{ secrets.GITHUB_TOKEN }} # Token necessário para permissão de push
 
-      # Faz o commit das mudanças
-      - uses: actions/checkout@v4 # Certifique-se de que esta linha está com v4
-      - uses: actions/upload-artifact@v4 # Certifique-se de que esta linha está com v4
-        with:
-          name: snake-output
-          path: dist
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: GitHub Actions
-          author_email: actions@github.com
-          message: "Atualiza animação da cobra"
-          push: true
+          # Opcional: Personalize o tema ou cores
+          # palette: github-dark # Ex: github-dark, dark, dracula, nord
+          # color_snake: '#718096'
+          # color_dots: '#4c566a, #abb2bf, #81a1c1, #56b6c2, #98c379'
