@@ -1,16 +1,17 @@
-## Hi there 👋
+# Olá! Eu sou o David Lucas 👋
 
-<!--
-**David-Lcswtx/David-Lcswtx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👨‍💻 Sobre Mim
 
-Here are some ideas to get you started:
+Sou estudante do **3º semestre de Ciência da Computação no IFCE - Campus Tianguá**, atualmente morando em Guaraciaba do Norte, Ceará. Minha jornada na programação começou com a faculdade e estou super animado para explorar novas tecnologias e construir projetos significativos. Sou um iniciante entusiasmado, com foco em aprender e crescer no mundo da tecnologia.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌱 O que estou aprendendo e explorando
+
+* **Linguagens:** Python, C, Java
+* **Conceitos:** Estruturas de Dados, Algoritmos, Lógica de Programação, Programação Orientada a Objetos
+* **Interesses:** Desenvolvimento Web, Análise de Dados
+
+### 📫 Como me encontrar
+
+* **Email:** davidlucswtx@gmail.com
+
+### Estatísticas do GitHub
