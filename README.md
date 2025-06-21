@@ -1,4 +1,4 @@
-# Olá! Eu sou o David Lucas 👋
+# Olá! Eu sou o David Lucas
 
 ### 👨‍💻 Sobre Mim
 
@@ -15,3 +15,5 @@ Sou estudante do **3º semestre de Ciência da Computação no IFCE - Campus Tia
 * **Email:** davidlucswtx@gmail.com
 
 ### Estatísticas do GitHub
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-Lcswtx&size_weight=0.5&count_weight=0.5)
